@@ -1,8 +1,8 @@
 # Crazy-Eights
 
-===============================================================================
-Card Class
-===============================================================================
+
+## Card Class
+
 I created set method, get method for suits and ranks here. With switch-case, 
 I assigned each initial of suits(Spade, Clover, Diamond, Heart) to each symbol as a string. 
 
@@ -11,9 +11,8 @@ so I assigned them to each number and return their names and rest of cards retur
 
 In toString method, simply it returns card information as a form of “rank of suit”
 
-===============================================================================
-Deck Class
-===============================================================================
+## Deck Class
+
 I made number of ranks and suits as final to prevent change them. 
 I created objects for the deck, I multiple ranks with suits.length, instead hard coding 52 
 because although the card ranks and suits are static in this game, 
@@ -43,9 +42,8 @@ Then with for loop, made card object shuffle randomly with assigning address.
 In string toString method, I used stringbuilder class. 
 And for each loop, returns a string of the deck with suit and rank.
 
-===============================================================================
-Game Class
-===============================================================================
+## Game Class
+
 In the constructor we are setting the game. Make a deck and shuffle it, players participated in with objects.
 Then distributeInitalSevenCards method distribute 7 cards to each player. I created this with for loop for each player.
 
@@ -80,9 +78,9 @@ As the human player, the computer player too draw the card if it has no card tha
 In the checkIfComputerPlayAvailable shows cards in the computer player can be played.
 printStatus method shows that how many cards left in each player’s hand and shows current faceup(topcard) in the deck.
 
-===============================================================================
-Player Class
-===============================================================================
+
+## Player Class
+
 In the constructor, I initialize new arraylist 
 which will be cards in human hand and input variable from the scanner class.
 
